@@ -1,0 +1,29 @@
+# Core Dependencies
+scapy>=2.5.0          # Packet manipulation and capture
+python-nmap>=0.7.1    # Nmap integration (optional)
+
+# Network Tools
+netifaces>=0.11.0     # Network interface information
+ipaddress>=1.0.23     # IP address manipulation
+
+# Web Interface
+flask>=3.0.0          # Web framework
+flask-cors>=4.0.0     # CORS support for web API
+flask-socketio>=5.3.0 # Real-time updates
+
+# Data Processing
+pandas>=2.0.0         # Data analysis and export
+tabulate>=0.9.0       # Pretty table printing
+
+# Utilities
+colorama>=0.4.6       # Colored terminal output
+tqdm>=4.66.0          # Progress bars
+python-dotenv>=1.0.0  # Environment configuration
+
+# Security
+cryptography>=41.0.0  # Cryptographic functions
+
+# Optional but recommended
+# pyshark>=0.6         # Alternative packet parsing (requires tshark)
+# matplotlib>=3.7.0    # Data visualization
+# networkx>=3.1        # Network graphing
